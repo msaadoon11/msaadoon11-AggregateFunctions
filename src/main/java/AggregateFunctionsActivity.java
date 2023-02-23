@@ -72,7 +72,7 @@ public class AggregateFunctionsActivity {
         /**
          * Problem 2: use the COUNT() aggregate function to output the number of employees with the last name "Smith".
          * Note: the output should not contain any other info but the count.
-         */
+         */ // SELECT COUNT(*) FROM employee WHERE last_name = 'Smith';
         String sql = FileUtil.parseSQLFile("problem2.sql");
 
 
@@ -94,10 +94,10 @@ public class AggregateFunctionsActivity {
     }
 
     public double problem3() {
-        /**
+        /** //
          * Problem 3: use the MIN() aggregate function to return the lowest salary.
          * Note: the output should not contain any other info but the salary.
-         */
+         */ //SELECT MIN(salary) FROM employee;
         String sql = FileUtil.parseSQLFile("problem3.sql");
 
 
@@ -121,7 +121,7 @@ public class AggregateFunctionsActivity {
         /**
          * Problem 4: use the MAX() aggregate function to return the highest salary.
          * Note: the output should not contain any other info but the salary.
-         */
+         */ //SELECT MAX(salary) FROM employee;
         String sql = FileUtil.parseSQLFile("problem4.sql");
 
 
